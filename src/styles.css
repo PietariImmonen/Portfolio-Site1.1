@@ -1,0 +1,280 @@
+
+
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #101010;
+    font-size: 14px;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0rem;
+    width: 100vw;
+    margin: 0;
+    height: 4rem;
+    gap: 4rem;
+}
+
+.nav--container{
+    display: flex;
+    align-items: center ;
+}
+
+.nav--icon {
+    display: none;
+}
+
+.nav--icon1 {
+    display: none;
+}
+
+.nav--container:last-child {
+    margin-right: auto;
+    padding-left: 2rem;
+}
+
+.nav--container:first-child {
+    padding-right: 2rem;
+}
+
+.nav--content:hover {
+    color:#009E66;
+}
+
+.logo {
+    padding-top: 4rem;
+    height: 80px;
+}
+
+.heading {
+    padding-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading--name {
+    font-size: 40px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom--item:last-child {
+    margin-left:auto;
+}
+
+.bottom--lang {
+    padding-top: 20rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bottom--icons{
+    padding-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 1.5rem;
+}
+
+.about--header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding-top: 5rem;
+}
+
+.about--headerh4 {
+    color:#9F9F9F;
+    font-weight: 400;
+}
+
+.about--headerh1 {
+    font-weight: 800;
+}
+
+.about--pic {
+  width: 350px;
+  height: 350px;
+  border: 5px solid gray;
+  display: flex;
+}
+
+.about--text {
+    display: flex;
+    font-size: 16px;
+    padding: 2rem;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.about--text--text {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    font-size: 16px;
+    padding-left: 3rem;
+
+}
+
+.about--texth3 {
+    color:#009E66
+}
+
+.about--textp {
+    color: #9F9F9F;
+    font-weight: 400;
+}
+
+.project {
+    width: 340px;
+    height: 490px;
+    background-color: #161616;
+    border-radius: 10px;
+    border: 2px solid #009E66
+}
+
+.project--img {
+    width: 310px;
+    height: 310px;
+    margin: 7.5px;
+    border-radius: 10px;
+}
+
+.project--text {
+    margin-left: 2rem;
+}
+
+.portfolio--project {
+    justify-content: center;
+    display: flex;
+    gap: 2rem
+}
+
+.resumecard {
+    width: 400px;
+    height: 400px;
+    background-color: #161616;
+    border-left: 2px solid #009E66;
+    margin: 1rem;
+}
+
+.resumecard--text {
+    padding: 2rem;
+}
+
+.resumecard--textp1 {
+    color: #9F9F9F;
+}
+
+.education--cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.education--container {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.resume--h2 {
+    padding-left: 1rem;
+}
+
+.contact--icons {
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+    padding-top: 20px;
+}
+
+.contact--info{
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+}
+
+.contact--text {
+    border-left: 2px solid #9F9F9F
+}
+
+.contact--textzone {
+    padding-left: 1rem;
+}
+
+.contact--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+.nav--icon {
+    display: block;
+}
+
+.nav--icon1 {
+    display: none;
+}
+
+.nav--content {
+    display: none;
+}
+
+.bottom--icons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20rem;
+}
+
+.about--text {
+    display: flex;
+    flex-direction: column;
+}
+
+.about--text--text {
+    max-width: 350px;
+    padding-right: 2rem;
+    margin: none;
+}
+
+.portfolio--project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    margin-bottom: 1rem;
+}
+
+.education--container {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+@media only screen and (max-width: 520px) {
+.logo {
+    display: none;
+}
+
+.nav--icon1 {
+    display: block;
+}
+
+}
+
