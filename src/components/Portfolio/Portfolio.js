@@ -10,19 +10,31 @@ export default function Portfolio(props) {
                 <h4 className='about--headerh4'>{abh4}</h4>
                 <h1 className='about--headerh1'>Portfolio</h1>
             </div>
+            <div className="portfolio-container">
+                <div className="portfolio--project">
+                    <Project 
+                    name="Portfolio site"
+                    l1="React"
+                    l2="JavaScript"
+                    l3="Css"
+                    lang={props.lang}
+                    img=".//PortSite.PNG"
+                    path = "https://github.com/PietariImmonen/Portfolio-Site1.1"
+                    />
+                </div>
 
-            <div className="portfolio--project">
-                <Project 
-                name="Portfolio site"
-                l1="React"
-                l2="JavaScript"
-                l3="Css"
-                lang={props.lang}
-                img=".//PortSite.PNG"
-                />
-                
+                <div className="portfolio--project">
+                    <Project 
+                    name="Drinking game"
+                    l1="React"
+                    l2="JavaScript"
+                    l3="AWS Amplify backend"
+                    lang={props.lang}
+                    img=".//Drinks.PNG"
+                    path = "https://github.com/PietariImmonen/my-drinking-game"
+                    />
+                </div>
             </div>
         </div>
-
     )
 }

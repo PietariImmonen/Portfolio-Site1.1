@@ -50,7 +50,7 @@ body{
 }
 
 .heading {
-    padding-top: 20rem;
+    padding-top: 18rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,7 +70,7 @@ body{
 }
 
 .bottom--lang {
-    padding-top: 20rem;
+    padding-top: 18rem;
     padding-left: 2rem;
     display: flex;
     flex-direction: column;
@@ -135,6 +135,13 @@ body{
 .about--textp {
     color: #9F9F9F;
     font-weight: 400;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .project {
@@ -267,6 +274,14 @@ body{
 }
 
 }
+@media only screen and (max-width: 768px) {
+    
+    .portfolio-container {
+        flex-direction: column;
+    
+    }
+}
+
 @media only screen and (max-width: 520px) {
 .logo {
     display: none;

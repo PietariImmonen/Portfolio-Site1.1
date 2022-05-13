@@ -24,7 +24,7 @@ export default function Bottom(props) {
                     <Link style = {style}to={{ pathname: "https://www.instagram.com/pietariimmonen/" }} target="_blank" >
                     <FaInstagram size="30px"/>
                     </Link>
-                    <Link style={style} to="/">
+                    <Link style={style} to={{ pathname: "https://github.com/PietariImmonen" }} target="_blank">
                     <FaGithub size="30px"/>
                     </Link>
                 </div>
