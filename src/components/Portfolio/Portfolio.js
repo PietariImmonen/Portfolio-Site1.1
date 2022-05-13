@@ -18,7 +18,7 @@ export default function Portfolio(props) {
                     l2="JavaScript"
                     l3="Css"
                     lang={props.lang}
-                    img=".//PortSite.PNG"
+                    img=".//portsite.jpg"
                     path = "https://github.com/PietariImmonen/Portfolio-Site1.1"
                     />
                 </div>
@@ -30,7 +30,7 @@ export default function Portfolio(props) {
                     l2="JavaScript"
                     l3="AWS Amplify backend"
                     lang={props.lang}
-                    img=".//Drinks.PNG"
+                    img=".//drink.jpg"
                     path = "https://github.com/PietariImmonen/my-drinking-game"
                     />
                 </div>

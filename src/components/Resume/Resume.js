@@ -23,7 +23,8 @@ export default function Resume(props) {
             <h1 className='about--headerh1'>{abh1}</h1>
             <div className="education--container">
                 <div className="education--cards">
-                        <h2 className="resume--h2">{weh2}</h2>
+                    <div className="education--header"><h2 className="resume--h2">{weh2}</h2></div>
+                        
                     <ResumeCard 
                     name={weName1}
                     place="K-Citymarket Jumbo"

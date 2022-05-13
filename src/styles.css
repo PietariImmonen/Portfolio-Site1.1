@@ -1,7 +1,7 @@
 
 
 body{
-    margin:0;
+    margin:1rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #101010;
     font-size: 14px;
@@ -15,7 +15,7 @@ body{
     width: 100vw;
     margin: 0;
     height: 4rem;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .nav--container{
@@ -169,6 +169,8 @@ body{
     gap: 2rem
 }
 
+
+
 .resumecard {
     width: 400px;
     height: 400px;
@@ -188,6 +190,7 @@ body{
 .education--cards{
     display: flex;
     flex-direction: column;
+    margin-left: 1rem;
 }
 
 .education--container {
@@ -196,7 +199,7 @@ body{
 }
 
 .resume--h2 {
-    padding-left: 1rem;
+    padding-left: 5rem;
 }
 
 .contact--icons {
@@ -271,16 +274,17 @@ body{
 .education--container {
     display: flex;
     flex-direction: column;
+    padding-left: 2rem;
 }
 
+.portfolio-container {
+    flex-direction: column;
+
 }
-@media only screen and (max-width: 768px) {
-    
-    .portfolio-container {
-        flex-direction: column;
-    
-    }
+
+
 }
+
 
 @media only screen and (max-width: 520px) {
 .logo {
@@ -290,6 +294,12 @@ body{
 .nav--icon1 {
     display: block;
 }
+
+.resume--h2 {
+    padding-left: 5rem;
+}
+
+
 
 }
 
