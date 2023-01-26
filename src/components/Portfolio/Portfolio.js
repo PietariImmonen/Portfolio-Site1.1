@@ -18,7 +18,7 @@ export default function Portfolio(props) {
                     l2="JavaScript"
                     l3="Css"
                     lang={props.lang}
-                    img=".//portsite.jpg"
+                    img="../portsite.jpg"
                     path = "https://github.com/PietariImmonen/Portfolio-Site1.1"
                     />
                 </div>
@@ -30,10 +30,23 @@ export default function Portfolio(props) {
                     l2="JavaScript"
                     l3="AWS Amplify backend"
                     lang={props.lang}
-                    img=".//drink.jpg"
+                    img="../drinks.jpg"
                     path = "https://github.com/PietariImmonen/my-drinking-game"
                     />
                 </div>
+
+                <div className="portfolio--project">
+                    <Project 
+                    name="Todo App Mobile"
+                    l1="React Native"
+                    l2="MongoDB"
+                    l3="Node.js/Express.js"
+                    lang={props.lang}
+                    img="../todoAppReactNative.png"
+                    path = "https://github.com/PietariImmonen/React-Native-To-Do-list"
+                    />
+                </div>
+
             </div>
         </div>
     )
